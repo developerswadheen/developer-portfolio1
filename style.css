@@ -11,14 +11,17 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 120px;
 }
 
 .half-wigth {
     width: 50%;
     padding: 4%;
+
 }
+
 
 .half-wigth img {
     width: 100%;
@@ -42,4 +45,24 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experienceh1 {
+    font-size: 40px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 50px;
 }
