@@ -66,3 +66,15 @@ h1 {
     background-position: left;
     padding-bottom: 50px;
 }
+
+#full-stack-developer {
+    border-left: 7px solid blue;
+}
+
+#baby-web-developer {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
+}
